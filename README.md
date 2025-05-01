@@ -38,41 +38,41 @@ Our goal is to increase transparency around the privacy practices of smart TVs b
 Sample leak json output 
  ```json
  "leak_details": [
-{
-  "field": "x-goog-visitor-id",
-  "value": "CgtidGdOdFZ0Sm9OWSj8p_C_BjIKCgJVUxIEGgAgQA==",
-  "location": "request_headers"
-},
-{
-  "field": "screenDensityFloat",
-  "value": "2.75",
-  "location": "request_body"
-},
-{
-  "field": "connectionType",
-  "value": "CONN_WIFI",
-  "location": "request_body"
-},
-{
-  "field": "rolloutToken",
-  "value": "CLnduYiyuuLqqwEQ3_3Cv-LVjAMYuf7Lv-LVjAM==",
-  "location": "request_body"
-},
-{
-  "field": "deviceMake",
-  "value": "generic",
-  "location": "request_body"
-},
-{
-  "field": "deviceModel",
-  "value": "android 11.0",
-  "location": "request_body"
-},
-{
-  "field": "osVersion",
-  "value": "11",
-  "location": "request_body"
-}
+   {
+     "field": "x-goog-visitor-id",
+     "value": "CgtidGdOdFZ0Sm9OWSj8p_C_BjIKCgJVUxIEGgAgQA==",
+     "location": "request_headers"
+   },
+   {
+     "field": "screenDensityFloat",
+     "value": "2.75",
+     "location": "request_body"
+   },
+   {
+     "field": "connectionType",
+     "value": "CONN_WIFI",
+     "location": "request_body"
+   },
+   {
+     "field": "rolloutToken",
+     "value": "CLnduYiyuuLqqwEQ3_3Cv-LVjAMYuf7Lv-LVjAM==",
+     "location": "request_body"
+   },
+   {
+     "field": "deviceMake",
+     "value": "generic",
+     "location": "request_body"
+   },
+   {
+     "field": "deviceModel",
+     "value": "android 11.0",
+     "location": "request_body"
+   },
+   {
+     "field": "osVersion",
+     "value": "11",
+     "location": "request_body"
+   }
 ]
  
 
