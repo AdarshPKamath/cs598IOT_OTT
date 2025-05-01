@@ -1,0 +1,20 @@
+Leak Type,Count,Percent
+Total API Requests,739,100%
+Field Leak: x-goog-visitor-id,305,41.27%
+Field Leak: tz,474,64.14%
+Field Leak: rolloutToken,42,5.68%
+Field Leak: deviceModel,43,5.82%
+Field Leak: deviceMake,43,5.82%
+Field Leak: osVersion,43,5.82%
+Field Leak: screenDensityFloat,42,5.68%
+Field Leak: timeZone,24,3.25%
+Field Leak: utcOffset,22,2.98%
+Tracker Requests,78,10.55%
+Field Leak: connectionType,23,3.11%
+UUID Leaks,5,0.68%
+Email Leaks,11,1.49%
+Tracker: yt3.ggpht.com,49,6.63%
+Tracker: doubleclick.net,11,1.49%
+Tracker: googleads.g.doubleclick.net,8,1.08%
+Tracker: pagead2.googlesyndication.com,18,2.44%
+Tracker: ad.doubleclick.net,3,0.41%
