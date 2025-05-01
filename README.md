@@ -37,6 +37,7 @@ Our goal is to increase transparency around the privacy practices of smart TVs b
 
 Sample leak json output 
  ```json
+ "leak_details": [
 {
   "field": "x-goog-visitor-id",
   "value": "CgtidGdOdFZ0Sm9OWSj8p_C_BjIKCgJVUxIEGgAgQA==",
@@ -71,6 +72,7 @@ Sample leak json output
   "field": "osVersion",
   "value": "11",
   "location": "request_body"
-},
+}
+]
  
 
