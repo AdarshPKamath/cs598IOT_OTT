@@ -34,40 +34,43 @@ Our goal is to increase transparency around the privacy practices of smart TVs b
 - `nosignin_noinc_leak_summary.csv`: (YouTubeTV Experiment) Summary of detected privacy leaks and tracker activity from an non incognito YouTube session without sign-in. Lists counts and percentages for leaked fields, UUIDs, emails, and requests to known ad/tracker domains. From `leak_metrics.py`
 - `signedin_youtube_leak_summary.csv`: (YouTubeTV Experiment) Summary of detected privacy leaks and tracker activity from an non incognito YouTube session without sign-in. Lists counts and percentages for leaked fields, UUIDs, emails, and requests to known ad/tracker domains. From `leak_metrics.py`
 - `sensitive_data_leaks.json`: Contains parsed HTTPs traffic with request/response details and detected leaks such as identifiers, cookies, keywords for privacy analysis
-- {
-        "field": "x-goog-visitor-id",
-        "value": "CgtidGdOdFZ0Sm9OWSj8p_C_BjIKCgJVUxIEGgAgQA%3D%3D",
-        "location": "request_headers"
-      },
-      {
-        "field": "screenDensityFloat",
-        "value": "2.75",
-        "location": "request_body"
-      },
-      {
-        "field": "connectionType",
-        "value": "CONN_WIFI",
-        "location": "request_body"
-      },
-      {
-        "field": "rolloutToken",
-        "value": "CLnduYiyuuLqqwEQ3_3Cv-LVjAMYuf7Lv-LVjAM%3D",
-        "location": "request_body"
-      },
-      {
-        "field": "deviceMake",
-        "value": "generic",
-        "location": "request_body"
-      },
-      {
-        "field": "deviceModel",
-        "value": "android 11.0",
-        "location": "request_body"
-      },
-      {
-        "field": "osVersion",
-        "value": "11",
-        "location": "request_body"
-      },
+
+Sample leak json output 
+ ```json
+{
+  "field": "x-goog-visitor-id",
+  "value": "CgtidGdOdFZ0Sm9OWSj8p_C_BjIKCgJVUxIEGgAgQA==",
+  "location": "request_headers"
+},
+{
+  "field": "screenDensityFloat",
+  "value": "2.75",
+  "location": "request_body"
+},
+{
+  "field": "connectionType",
+  "value": "CONN_WIFI",
+  "location": "request_body"
+},
+{
+  "field": "rolloutToken",
+  "value": "CLnduYiyuuLqqwEQ3_3Cv-LVjAMYuf7Lv-LVjAM==",
+  "location": "request_body"
+},
+{
+  "field": "deviceMake",
+  "value": "generic",
+  "location": "request_body"
+},
+{
+  "field": "deviceModel",
+  "value": "android 11.0",
+  "location": "request_body"
+},
+{
+  "field": "osVersion",
+  "value": "11",
+  "location": "request_body"
+},
  
 
